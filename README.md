@@ -7,6 +7,8 @@ Hotman tidak harus selalu diaktifkan, karena hotman bukanlah radius server. Ini 
 
 Hotman merupakan aplikasi multi platform. Hal ini dikarenakan untuk mengoperasikannya, Anda hanya perlu menginstal Webserver PHP di Windows, Linux, MacOS bahkan Android sekalipun.
 
+<b>INSTALASI</b>
+
 <pre>git clone https://github.com/erfandibagus/hotmanager</pre>
 <pre>cd hotmanager</pre>
 <pre>composer update</pre>
