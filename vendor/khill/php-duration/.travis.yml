@@ -1,0 +1,42 @@
+language: php
+
+dist: trusty
+
+sudo: false
+
+php:
+  - 5.4
+  - 5.5
+  - 5.6
+  - 7.0
+  - 7.1
+
+matrix:
+  fast_finish: true
+  include:
+    - php: 5.3
+      dist: precise
+
+branches:
+  only:
+    - "master"
+
+cache:
+  directories:
+    - $HOME/.composer/cache
+    - vendor
+
+before_install:
+  - composer selfupdate
+
+install:
+  - composer install --no-progress --no-interaction --prefer-dist
+
+before_script:
+  - mkdir -p build/logs
+
+script:
+  - composer run test
+
+after_script:
+  - php ./vendor/bin/coveralls
