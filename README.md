@@ -12,12 +12,11 @@ Hotman merupakan aplikasi multi platform. Hal ini dikarenakan untuk mengoperasik
 <pre>composer update</pre>
 
 <ul>
-<li><strong>Author:</strong> Erfandi Bagus</li>
 <li><strong>Licence:</strong> GPLv2</li>
 <li><strong>API:</strong> Net_RouterOS</li>
-<li><strong>Website:</strong> https://erfandibagus.com</li>
-<li><strong>Facebook:</strong> https://www.facebook.com/erfandibgs</li>
-<li><strong>Facebook Page:</strong> https://www.facebook.com/erfandibagus</li>
+<li><strong>My Website:</strong> https://erfandibagus.com</li>
+<li><strong>My Facebook:</strong> https://www.facebook.com/erfandibgs</li>
+<li><strong>My Facebook Page:</strong> https://www.facebook.com/erfandibagus</li>
 </ul>
 
 Terimakasih
